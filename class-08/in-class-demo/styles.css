@@ -1,0 +1,61 @@
+/* Structure of a CSS RULE: */
+/* selector {property: value;} */
+
+/* PROOF OF LIFE - Make it obvious to see that it's working */
+/* body {background-color: tomato;} */
+
+body { 
+  background-color: rgba(128, 121, 228, 0.366);
+  margin: 100px;
+  padding: 10px; 
+  /* border-color: green;
+  border-width: 20px;
+  border-style:double; */
+  border: 10px dotted rgb(216, 138, 216);
+  font-family: 'Courier New';
+}
+
+h1 {
+  float: left;
+}
+
+header {
+  background-color: pink;
+}
+
+/* p{font-family: 'Courier';
+background-color: red;
+} */
+
+img {
+  width: 400px;
+}
+
+nav {
+  width: 100%;
+  text-align: right;
+}
+
+nav li {
+  display: inline-block;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
+#hero {
+  width: 700px;
+}
+
+.lower {
+  display: inline-block;
+  text-align: center;
+  margin-left: 40px;
+}
+
+footer {
+  text-align: center;
+}
+
+.unicorn {
+  width: 100px;
+}
